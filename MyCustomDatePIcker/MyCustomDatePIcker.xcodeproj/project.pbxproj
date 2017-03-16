@@ -1,0 +1,332 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B7F657C31E7A6A3F008FA425 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B7F657C21E7A6A3F008FA425 /* main.m */; };
+		B7F657C61E7A6A40008FA425 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B7F657C51E7A6A40008FA425 /* AppDelegate.m */; };
+		B7F657C91E7A6A40008FA425 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B7F657C81E7A6A40008FA425 /* ViewController.m */; };
+		B7F657CC1E7A6A40008FA425 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B7F657CA1E7A6A40008FA425 /* Main.storyboard */; };
+		B7F657CE1E7A6A40008FA425 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B7F657CD1E7A6A40008FA425 /* Assets.xcassets */; };
+		B7F657D11E7A6A40008FA425 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B7F657CF1E7A6A40008FA425 /* LaunchScreen.storyboard */; };
+		B7F657DA1E7A6C1C008FA425 /* CustomDatePickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = B7F657D91E7A6C1C008FA425 /* CustomDatePickerView.m */; };
+		B7F657DC1E7A6D44008FA425 /* CustomDatePickerView.xib in Resources */ = {isa = PBXBuildFile; fileRef = B7F657DB1E7A6D44008FA425 /* CustomDatePickerView.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		B7F657BE1E7A6A3F008FA425 /* MyCustomDatePIcker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyCustomDatePIcker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B7F657C21E7A6A3F008FA425 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B7F657C41E7A6A3F008FA425 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B7F657C51E7A6A40008FA425 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B7F657C71E7A6A40008FA425 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		B7F657C81E7A6A40008FA425 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		B7F657CB1E7A6A40008FA425 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B7F657CD1E7A6A40008FA425 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B7F657D01E7A6A40008FA425 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B7F657D21E7A6A40008FA425 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B7F657D81E7A6C1C008FA425 /* CustomDatePickerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CustomDatePickerView.h; path = CustomDatePicker/CustomDatePickerView.h; sourceTree = "<group>"; };
+		B7F657D91E7A6C1C008FA425 /* CustomDatePickerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CustomDatePickerView.m; path = CustomDatePicker/CustomDatePickerView.m; sourceTree = "<group>"; };
+		B7F657DB1E7A6D44008FA425 /* CustomDatePickerView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = CustomDatePickerView.xib; path = CustomDatePicker/CustomDatePickerView.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B7F657BB1E7A6A3F008FA425 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B7F657B51E7A6A3E008FA425 = {
+			isa = PBXGroup;
+			children = (
+				B7F657C01E7A6A3F008FA425 /* MyCustomDatePIcker */,
+				B7F657BF1E7A6A3F008FA425 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B7F657BF1E7A6A3F008FA425 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B7F657BE1E7A6A3F008FA425 /* MyCustomDatePIcker.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B7F657C01E7A6A3F008FA425 /* MyCustomDatePIcker */ = {
+			isa = PBXGroup;
+			children = (
+				B7F657DD1E7A789E008FA425 /* CustomDatePicker */,
+				B7F657C41E7A6A3F008FA425 /* AppDelegate.h */,
+				B7F657C51E7A6A40008FA425 /* AppDelegate.m */,
+				B7F657C71E7A6A40008FA425 /* ViewController.h */,
+				B7F657C81E7A6A40008FA425 /* ViewController.m */,
+				B7F657CA1E7A6A40008FA425 /* Main.storyboard */,
+				B7F657CD1E7A6A40008FA425 /* Assets.xcassets */,
+				B7F657CF1E7A6A40008FA425 /* LaunchScreen.storyboard */,
+				B7F657D21E7A6A40008FA425 /* Info.plist */,
+				B7F657C11E7A6A3F008FA425 /* Supporting Files */,
+			);
+			path = MyCustomDatePIcker;
+			sourceTree = "<group>";
+		};
+		B7F657C11E7A6A3F008FA425 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B7F657C21E7A6A3F008FA425 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B7F657DD1E7A789E008FA425 /* CustomDatePicker */ = {
+			isa = PBXGroup;
+			children = (
+				B7F657D81E7A6C1C008FA425 /* CustomDatePickerView.h */,
+				B7F657D91E7A6C1C008FA425 /* CustomDatePickerView.m */,
+				B7F657DB1E7A6D44008FA425 /* CustomDatePickerView.xib */,
+			);
+			name = CustomDatePicker;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B7F657BD1E7A6A3F008FA425 /* MyCustomDatePIcker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B7F657D51E7A6A40008FA425 /* Build configuration list for PBXNativeTarget "MyCustomDatePIcker" */;
+			buildPhases = (
+				B7F657BA1E7A6A3F008FA425 /* Sources */,
+				B7F657BB1E7A6A3F008FA425 /* Frameworks */,
+				B7F657BC1E7A6A3F008FA425 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MyCustomDatePIcker;
+			productName = MyCustomDatePIcker;
+			productReference = B7F657BE1E7A6A3F008FA425 /* MyCustomDatePIcker.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B7F657B61E7A6A3E008FA425 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = Ranosys;
+				TargetAttributes = {
+					B7F657BD1E7A6A3F008FA425 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = B7F657B91E7A6A3E008FA425 /* Build configuration list for PBXProject "MyCustomDatePIcker" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B7F657B51E7A6A3E008FA425;
+			productRefGroup = B7F657BF1E7A6A3F008FA425 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B7F657BD1E7A6A3F008FA425 /* MyCustomDatePIcker */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B7F657BC1E7A6A3F008FA425 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B7F657D11E7A6A40008FA425 /* LaunchScreen.storyboard in Resources */,
+				B7F657CE1E7A6A40008FA425 /* Assets.xcassets in Resources */,
+				B7F657CC1E7A6A40008FA425 /* Main.storyboard in Resources */,
+				B7F657DC1E7A6D44008FA425 /* CustomDatePickerView.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B7F657BA1E7A6A3F008FA425 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B7F657C91E7A6A40008FA425 /* ViewController.m in Sources */,
+				B7F657C61E7A6A40008FA425 /* AppDelegate.m in Sources */,
+				B7F657C31E7A6A3F008FA425 /* main.m in Sources */,
+				B7F657DA1E7A6C1C008FA425 /* CustomDatePickerView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		B7F657CA1E7A6A40008FA425 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B7F657CB1E7A6A40008FA425 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B7F657CF1E7A6A40008FA425 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B7F657D01E7A6A40008FA425 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B7F657D31E7A6A40008FA425 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		B7F657D41E7A6A40008FA425 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B7F657D61E7A6A40008FA425 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MyCustomDatePIcker/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Ranosys.MyCustomDatePIcker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		B7F657D71E7A6A40008FA425 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MyCustomDatePIcker/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Ranosys.MyCustomDatePIcker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B7F657B91E7A6A3E008FA425 /* Build configuration list for PBXProject "MyCustomDatePIcker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B7F657D31E7A6A40008FA425 /* Debug */,
+				B7F657D41E7A6A40008FA425 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B7F657D51E7A6A40008FA425 /* Build configuration list for PBXNativeTarget "MyCustomDatePIcker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B7F657D61E7A6A40008FA425 /* Debug */,
+				B7F657D71E7A6A40008FA425 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B7F657B61E7A6A3E008FA425 /* Project object */;
+}

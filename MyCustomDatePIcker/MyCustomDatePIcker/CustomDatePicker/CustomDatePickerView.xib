@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11542" systemVersion="16A323" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11524"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="CustomDatePickerView">
+            <connections>
+                <outlet property="customPickerView" destination="iN0-l3-epB" id="lPK-m1-Am0"/>
+                <outlet property="pickerView" destination="ymC-Cl-5xW" id="bce-N5-KnL"/>
+                <outlet property="toolBar" destination="VDn-5a-8b8" id="GCA-io-xe8"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="260"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <datePicker contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" datePickerMode="dateAndTime" minuteInterval="1" translatesAutoresizingMaskIntoConstraints="NO" id="ymC-Cl-5xW">
+                    <rect key="frame" x="0.0" y="44" width="375" height="216"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="216" id="cr6-Mi-J1e"/>
+                    </constraints>
+                    <date key="date" timeIntervalSinceReferenceDate="511339869.32829499">
+                        <!--2017-03-16 06:51:09 +0000-->
+                    </date>
+                </datePicker>
+                <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="VDn-5a-8b8">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                    <items>
+                        <barButtonItem systemItem="cancel" id="9e3-II-NDX">
+                            <connections>
+                                <action selector="cancel:" destination="-1" id="omw-Vh-8AH"/>
+                            </connections>
+                        </barButtonItem>
+                        <barButtonItem style="plain" systemItem="flexibleSpace" id="pAu-wQ-BQM"/>
+                        <barButtonItem systemItem="done" id="6Sh-Wb-65O">
+                            <connections>
+                                <action selector="done:" destination="-1" id="1mT-MU-XG1"/>
+                            </connections>
+                        </barButtonItem>
+                    </items>
+                </toolbar>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="ymC-Cl-5xW" secondAttribute="trailing" id="0Gw-en-HhB"/>
+                <constraint firstItem="ymC-Cl-5xW" firstAttribute="top" secondItem="VDn-5a-8b8" secondAttribute="bottom" id="Sqs-H4-AyL"/>
+                <constraint firstItem="VDn-5a-8b8" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="SzE-sY-anT"/>
+                <constraint firstAttribute="trailing" secondItem="VDn-5a-8b8" secondAttribute="trailing" id="edw-5K-j5E"/>
+                <constraint firstItem="ymC-Cl-5xW" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="rDu-Y8-KZT"/>
+                <constraint firstAttribute="bottom" secondItem="ymC-Cl-5xW" secondAttribute="bottom" id="uss-Dd-t9r"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="25.5" y="255"/>
+        </view>
+    </objects>
+</document>
